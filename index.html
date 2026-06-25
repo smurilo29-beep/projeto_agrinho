@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCriar - Sustentabilidade e Inovação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 EcoCriar</h1>
+        <p>Sustentabilidade, criatividade, interatividade e acessibilidade.</p>
+
+        <div class="acessibilidade">
+            <button onclick="alterarFonte('aumentar')">A+</button>
+            <button onclick="alterarFonte('diminuir')">A-</button>
+            <button onclick="alternarContraste()">Alto Contraste</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#criatividade">Criatividade</a>
+        <a href="#interatividade">Interatividade</a>
+        <a href="#impacto">Meu Impacto</a>
+    </nav>
+
+    <section id="sustentabilidade">
+        <h2>🌍 Sustentabilidade</h2>
+        <p>
+            Descubra maneiras simples de economizar água, reciclar materiais
+            e reduzir sua pegada ecológica.
+        </p>
+    </section>
+
+    <section id="criatividade">
+        <h2>🎨 Espaço Criativo</h2>
+        <p>
+            Compartilhe ideias sustentáveis e participe de desafios ecológicos.
+        </p>
+    </section>
+
+    <section id="interatividade">
+        <h2>🎮 Desafio Ecológico</h2>
+        <p>Clique no botão para ganhar pontos sustentáveis.</p>
+
+        <button id="btnDesafio">Participar</button>
+
+        <div class="pontuacao">
+            Pontos: <span id="pontos">0</span>
+        </div>
+    </section>
+
+    <section id="impacto">
+        <h2>📊 Meu Impacto</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>💧 Água Economizada</h3>
+                <p>120 L</p>
+            </div>
+
+            <div class="card">
+                <h3>♻️ Materiais Reciclados</h3>
+                <p>35 kg</p>
+            </div>
+
+            <div class="card">
+                <h3>🌿 CO₂ Evitado</h3>
+                <p>18 kg</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 EcoCriar - Construindo um futuro sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

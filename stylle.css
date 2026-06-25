@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f1;
+    color: #333;
+    transition: 0.3s;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #2e7d32, #4caf50);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+.acessibilidade {
+    margin-top: 20px;
+}
+
+.acessibilidade button {
+    margin: 5px;
+}
+
+nav {
+    background: #1b5e20;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8e6c9;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #0288d1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #01579b;
+}
+
+.pontuacao {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Alto contraste */
+
+.contraste {
+    background: black;
+    color: yellow;
+}
+
+.contraste header,
+.contraste nav,
+.contraste footer {
+    background: #000;
+}
+
+.contraste h2 {
+    color: yellow;
+}
+
+.contraste .card {
+    background: #222;
+    color: white;
+}
